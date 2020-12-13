@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Header Information -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock Paper Scissors Game</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Asap:wght@500&display=swap');
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Rock Paper Scissors</h1>
+    </header>
+
+    <!-- Score Board Information  -->
+    <!-- Defined Scored Board Class  -->
+    <div class="score-board">
+
+        <!-- Labels for the user & computer  -->
+        <div id="user-label" class="badge">user</div>
+        <div id="comp-label" class="badge">comp</div>
+
+        <!-- Score  -->
+        <span id="user-score">0</span>:<span id="comp-score">0</span>
+    </div>
+
+    <!-- Result of Match displayed here  -->
+    <!-- Instructions set  -->
+    <div class="result">
+        <p>Click on a Element to Start Playing</p>
+    </div>
+
+
+    <!-- Buttons for available choices  -->
+    <div class="choices">
+        <div class="choice" id="r">
+            <img src="images/rock.png" alt="rock">
+        </div>
+        <div class="choice" id="p">
+            <img src="images/paper.png" alt="paper">
+        </div>
+        <div class="choice" id="s">
+            <img src="images/scissors.png" alt="scissors">
+        </div>
+    </div>
+
+    <!-- Action Message -->
+    <p id="action-message">Make Your Move</p>
+    <script src="app.js"></script>
+
+</body>
+
+</html>
